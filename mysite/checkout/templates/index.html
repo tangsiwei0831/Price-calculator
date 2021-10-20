@@ -1,0 +1,27 @@
+{% load static %}
+<link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index</title>
+</head>
+<body>
+    <p> name, price, quantity</p>
+    {% for item in item_list %}
+        <p>{{item}}</p>
+    {% endfor %}
+    <p> Tax: {{tax}}</p>
+    <p> Checkout Price: {{checkout_price}}</p>
+    <br><br>
+    <a href="additem">Add Item</a>
+    <br><br>
+    <a href="removeitem">Remove Item</a>
+    <br><br>
+    <a href="edittax">Edit Tax</a>
+    <br><br>
+    <a href="database_opt">Update Available Items</a>
+</body>
+</html>
