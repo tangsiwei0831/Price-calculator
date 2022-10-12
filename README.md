@@ -1,5 +1,5 @@
 CSC301H Assignment 1
-# A1 deployment video link(ggogle drive share link)
+# A1 deployment video link(google drive share link)
 https://drive.google.com/file/d/1H66g_olIGCNCH_6VeHuG64eQCUvP-_1S/view?usp=sharing
 gi
 # Running process
